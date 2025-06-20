@@ -1,0 +1,109 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f2f2f2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background: white;
+  padding: 20px 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #aaa;
+  width: 100%;
+  max-width: 400px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.input-box {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  flex: 1;
+  padding: 10px;
+}
+
+button {
+  padding: 10px;
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background: #eee;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+li.feito {
+  text-decoration: line-through;
+  color: gray;
+}
+
+body.dark {
+  background: #1e1e1e;
+  color: white;
+}
+
+body.dark .container {
+  background: #2c2c2c;
+}
+
+#temaBtn {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  padding: 8px;
+  cursor: pointer;
+}
+
+
+li {
+  transition: all 0.3s ease;
+}
+
+li:hover {
+  transform: scale(1.02);
+  background-color: #dcdcdc;
+}
+
+button {
+  transition: background 0.3s;
+}
+
+button:hover {
+  background: #ccc;
+}
+
+
+@media (max-width: 500px) {
+  .container {
+    padding: 15px 20px;
+  }
+
+  .input-box {
+    flex-direction: column;
+  }
+
+  button {
+    width: 100%;
+    margin-top: 5px;
+  }
+}
