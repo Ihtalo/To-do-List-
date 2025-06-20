@@ -18,9 +18,10 @@ Permite adicionar, marcar como concluído e remover tarefas, com armazenamento l
 - Design responsivo
 
 ## 📸 Imagem de exemplo:
-(Adicione aqui uma imagem do projeto rodando)
+![to do list](https://github.com/user-attachments/assets/df6f0e9e-958f-4600-83fb-29be2e3e3631)
 
 ## 🚀 Como usar:
+
 1. Clone ou baixe este repositório
 2. Abra o arquivo `index.html` em um navegador
 3. Comece a usar a lista!
